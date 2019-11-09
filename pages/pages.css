@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+/* skills page */
+
+.education {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    line-height: 1.9;
+}
+
+.education p i {
+    color: #385AF3;
+    font-size: 2rem;
+}
+
+.education span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 0.8rem;
+}
+
+.education .title {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.coding-skills h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.my-skill {
+    margin-bottom: 1rem;
+}
+
+.my-skill div {
+    display: inline;
+}
+
+.my-skill span {
+    display: inline-block;
+    background-color: #3FB1D8;
+    padding: 0.7rem 1.2rem;
+    margin: 1.3rem;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.backend span {
+    background-color: #4664DF;
+}
+
+.other-skills span {
+    background-color: #5638af;
+}
+
+
+/* projects page */
+
+.let-work {
+    margin-top: 1rem;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.projects-showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects-showcase img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.projects-showcase p {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project p span {
+    display: none;
+    color: #2E7EF4;
+}
+
+.project a:hover span {
+    display: inline-block;
+}
+
+
+/* small screnn */
+
+@media (max-width:960px) {
+    .projects-showcase {
+        grid-template-columns: 1fr;
+        grid-gap: 1.4rem;
+    }
+    .projects-showcase p {
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:600px) {
+    .my-skill span {
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+        color: #fff;
+        border-radius: 15px;
+    }
+}
