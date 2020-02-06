@@ -18,6 +18,7 @@ body {
     font-family: var(--main-font);
     background-image: linear-gradient(to right bottom, #5CE0D4, #3FB1D8, #2987DB, #4664DF, #7C5AE4, #6544c9, #5638af, #7f55c4, #A861E9);
     width: 100%;
+    overflow-x: hidden;
 }
 
 img {
@@ -39,6 +40,7 @@ ul {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 2fr 6fr;
+    overflow-x: hidden;
 }
 
 .inner-container {
